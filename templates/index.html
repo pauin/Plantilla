@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% from 'macros.html' import navbar %}
+
+{% block main %}
+  {{ navbar('/') }}
+    <br><br>
+    <h2 class="">TITULO</h2><br>
+    
+    <div class="row offset-8">
+      <div class="col-2">
+        Search
+      </div>
+      <div class="col-2">
+        <input type="text" class="search">
+      </div>
+    </div><br><br>
+
+{% endblock %}
+
